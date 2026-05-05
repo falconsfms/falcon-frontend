@@ -1,0 +1,12 @@
+{
+  "buildCommand": "next build",
+  "env": {
+    "NEXT_PUBLIC_API_URL": "@next_public_api_url"
+  },
+  "regions": ["sfo1"],
+  "functions": {
+    "pages/api/**": {
+      "maxDuration": 60
+    }
+  }
+}
